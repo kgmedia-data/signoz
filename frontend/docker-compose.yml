@@ -2,6 +2,6 @@ version: "3.9"
 services:
  web:
   build: .
-  image: signoz/frontend:latest
+  image: mragungsetiaji/signoz-frontend-subpath:0.9.0
   ports:
-   - "3301:3301"
+   - "3302:3301"

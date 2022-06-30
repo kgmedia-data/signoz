@@ -1,3 +1,7 @@
 import { createBrowserHistory } from 'history';
 
-export default createBrowserHistory();
+const historyConfig = {
+    basename: '/signoz'
+}
+
+export default createBrowserHistory(historyConfig);
